@@ -1,0 +1,1 @@
+# Diplom-QA52-UI
