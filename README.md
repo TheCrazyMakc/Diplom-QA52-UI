@@ -23,12 +23,12 @@ pip install -r requirements.txt
 python -m pytest tests/ -v
 ```
 
-**Запуск конкретного файла  только в Chrome:**
+**Запуск файла только в Chrome:**
 ```bash
 python -m pytest tests/test_order_feed.py -k "chrome" -v
 ```
 
-**Запуск первой части только в Firefox:**
+**Запуск файла только в Firefox:**
 ```bash
 python -m pytest tests/test_main_page.py -k "firefox" -v
 ```
